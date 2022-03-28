@@ -1,2 +1,1 @@
-# mds_525_group_15
-525_group_15
+# Predicting daily rainfall in Australia
