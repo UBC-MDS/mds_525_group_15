@@ -14,7 +14,7 @@ The biggest challenge was the high time-consuming process to run the entire code
 |-------------|-------------------------------|-------|----------------|--------|----------------------------------------------------------|-------------------------------------------| 
 | Josh        | macOS Big Sur Version 11.5.2  | 8GB   | Apple M1       | TRUE   | 6min 59s // 7min 12s                                     | 3min 43s // 3min 49s                     | 
 | Aldo        | Windows 10 version 10.0       | 16GB  | intel core i-7 | TRUE   | 8min 29s // 8min 31s                                     | 5min 2s // 5min 36s                     | 
-| Arijet      | macOS Big Sur Version 11.6    | 8GB   | Apple M1       | TRUE   | 9min 19s // 9min 26s                                     | 3min 37s //  3min 57s                     | 
+| Arijeet      | macOS Big Sur Version 11.6    | 8GB   | Apple M1       | TRUE   | 9min 19s // 9min 26s                                     | 3min 37s //  3min 57s                     | 
 
 From the table above we can conclude that the time taken to combine the csv files is high in comparison with EDA and also any other step that we observed during the entire process. There is a difference in CPU time and wall time. Wall time measures how much time has passed as if you were looking at the clock on your wall. CPU time is how many seconds the CPU was busy. and for both measures, the time taken to combine data CSVs is large and any updates or changes in this step would cause a high time-consuming process. About the different machines, generally speaking, the macOS performed better than Windows for both processes: combining CSVs and EDA.
 
