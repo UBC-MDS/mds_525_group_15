@@ -30,7 +30,6 @@ def index():
 @app.route('/predict', methods=['POST'])
 def rainfall_prediction():
     content = request.json  # this extracts the JSON content we sent
-    print(content)
     prediction = return_prediction(model, content)
     results = {
         "input": content["data"],
